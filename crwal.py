@@ -90,4 +90,5 @@ class Crwal_sample:
             print(soup.select('articleBodyContents > br'))
             
 if __name__ == "__main__":
+    test = Crwal_sample()
     test.common_crawl_news_title('정치', '국회')
