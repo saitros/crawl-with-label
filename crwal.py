@@ -1,3 +1,14 @@
+import selenium
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+from bs4 import BeautifulSoup
+from urllib.request import urlopen
+
+import re
+import requests
+import time
+
 class Crwal_sample:
     def __init__(self):
         self.chrome_opt = webdriver.ChromeOptions()
